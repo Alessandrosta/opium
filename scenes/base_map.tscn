@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c40kqohrf13gv"]
+
+[ext_resource type="Texture2D" uid="uid://cexowhvw3sg8i" path="res://images/map/mappaV2_page-0001.jpg" id="1_3nuxk"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MappaV2Page0001" type="Sprite2D" parent="."]
+position = Vector2(7, -4)
+texture = ExtResource("1_3nuxk")
