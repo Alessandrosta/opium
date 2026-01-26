@@ -1,0 +1,15 @@
+{
+  "id": "e1_con_000",
+  "title": "Sample title",
+  "cost": 2,
+  "description": "Sample description.",
+  "type": "continuous",
+  "effects": [
+    {
+      "trigger": "continuous",
+      "action": "remove_resource",
+      "target": "choose_player",
+      "amount": 2
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "nodes": [
+	{
+	  "id": "pompei",
+	  "name": "Pompei",
+	  "type": "city",
+	  "position": [1,2]
+	},
+	{
+	  "id": "volaterrae",
+	  "name": "Volaterrae",
+	  "type": "capital",
+	  "position": [x,y]
+	},
+	{
+	  "id": "tarentum",
+	  "name": "Tarentum",
+	  "type": "city",
+	  "position": [x,y]
+	}
+  ],
+
+  "edges": [
+	["pompei", "volaterrae"],
+	["pompei", "tarentum"]
+  ]
+}
