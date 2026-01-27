@@ -293,11 +293,3 @@ Elementi chiave da modellare:
 * Bilanciamento: **da testare**
 * Espansioni: **non incluse**
 * Meccaniche rimosse: controllo regioni, Roma separata, città caratterizzate
-
----
-
-Se vuoi, **nel prossimo passo** posso:
-
-* trasformare questo README in **specifica tecnica per sviluppatori**
-* definire **modello dati (entità / relazioni / stati)**
-* oppure iniziare direttamente con **pseudocodice del game loop**.
