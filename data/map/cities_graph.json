@@ -4,24 +4,34 @@
 	  "id": "pompei",
 	  "name": "Pompei",
 	  "type": "city",
-	  "position": [1,2]
+	  "position": [1,1]
 	},
 	{
 	  "id": "volaterrae",
 	  "name": "Volaterrae",
 	  "type": "capital",
-	  "position": [x,y]
+	  "position": [1,0]
 	},
 	{
 	  "id": "tarentum",
 	  "name": "Tarentum",
 	  "type": "city",
-	  "position": [x,y]
+	  "position": [0,1]
+	},
+	{
+	  "id": "panormus",
+	  "name": "Panormus",
+	  "type": "city",
+	  "position": [0,0]
 	}
   ],
 
   "edges": [
 	["pompei", "volaterrae"],
-	["pompei", "tarentum"]
+	["pompei", "tarentum"],
+	["volaterrae", "tarentum"],
+	["panormus", "volaterrae"],
+	["panormus", "pompei"],
+	["panormus", "tarentum"]
   ]
 }
