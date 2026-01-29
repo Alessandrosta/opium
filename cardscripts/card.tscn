@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cogh2j6s25diq"]
+
+[ext_resource type="Texture2D" uid="uid://caael1rykspm" path="res://images/cards/minieradoro.png" id="1_qmmwa"]
+[ext_resource type="Script" uid="uid://cdu7cshmtpqgb" path="res://cardscripts/card.gd" id="1_u0012"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u0012"]
+size = Vector2(395, 576)
+
+[node name="Cards" type="Node2D" unique_id=1348783408]
+script = ExtResource("1_u0012")
+
+[node name="CardImage" type="Sprite2D" parent="." unique_id=410947302]
+texture = ExtResource("1_qmmwa")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1889884021]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=85579455]
+position = Vector2(0.5, 1)
+shape = SubResource("RectangleShape2D_u0012")
+
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]

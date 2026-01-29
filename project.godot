@@ -18,3 +18,7 @@ config/name="opium"
 run/main_scene="uid://c40kqohrf13gv"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/vsync/vsync_mode=0
