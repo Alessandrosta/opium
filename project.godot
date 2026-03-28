@@ -14,11 +14,19 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="opium"
-run/main_scene="uid://c40kqohrf13gv"
-config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/name="Opium populi"
+config/description="Multiplayer online board game — expand your religion across the Roman Empire"
+run/main_scene="res://scenes/lobby/Lobby.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
 
-[display]
+[autoload]
 
-window/vsync/vsync_mode=0
+EventBus="*res://autoloads/EventBus.gd"
+PlayerManager="*res://autoloads/PlayerManager.gd"
+CardManager="*res://autoloads/CardManager.gd"
+GameManager="*res://autoloads/GameManager.gd"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
